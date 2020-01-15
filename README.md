@@ -1,2 +1,3 @@
 # CV
-Mon CV avec Bootstrap 4
+Mon CV avec Bootstrap 4, 
+responsive et animé.
