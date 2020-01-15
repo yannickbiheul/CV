@@ -1,0 +1,23 @@
+header {
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(images/bubulles3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 94vh;
+}
+
+header img {
+    width: 300px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+header h1 {
+    color: gainsboro;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+header button {
+    width: 100px;
+    margin-top: 20px;
+}
