@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(images/bubulles3.jpg);
     background-size: cover;
@@ -21,17 +23,39 @@ header button {
     margin-bottom: 80px;
 }
 
+
+/* PRESENTATION */
+
+#presentation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e9ecef;
+}
+
 .bloc {
     margin-bottom: 20px;
     margin-top: 50px;
-    
 }
 
 .bloc h2 {
     margin-bottom: 20px;
 }
 
-#presentation {
-    padding-top: 20px;
-    height: 100vh;
+
+/* COMPETENCES */
+
+#competences {
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
+#competences h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+
