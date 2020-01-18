@@ -1,3 +1,4 @@
+/* Code couleur gris : #E9ECEF */
 /* HEADER */
 
 header {
@@ -59,3 +60,28 @@ header button {
     margin-bottom: 20px;
 }
 
+
+/* CERTIFICATS */
+
+#certificats {
+    background-color: #E9ECEF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#certificats h2 {
+    text-align: center;
+}
+
+#certificats h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#certificats .card {
+    box-shadow: 5px 5px 4px #333;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E9ECEF;
+}
