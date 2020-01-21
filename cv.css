@@ -60,6 +60,31 @@ header button {
     margin-bottom: 20px;
 }
 
+.html {
+    background-color: #e54b21 !important;
+}
+.css {
+    background-color: #264ce4 !important;
+}
+.bootstrap {
+    background-color: #8550d2 !important;
+}
+.javascript {
+    background-color: #f7e018 !important;
+}
+.php {
+    background-color: #767bb5 !important;
+}
+.mysql {
+    background-color: #e48d00 !important;
+}
+.git {
+    background-color: #f05033 !important;
+}
+.studiocode {
+    background-color: #40adf4 !important;
+}
+
 
 /* CERTIFICATS */
 
