@@ -173,3 +173,29 @@ header button {
     display: flex;
     flex-direction: column;
 }
+
+/* EXPERIENCES */
+
+#experiences {
+    background-color: #E9ECEF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#experiences h2 {
+    text-align: center;
+}
+
+#experiences img {
+    width: 100px;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#experiences ul {
+    margin-top: 20px;
+}
