@@ -1,4 +1,10 @@
 /* Code couleur gris : #E9ECEF */
+/* NAVIGATION */
+
+.navbar-toggler {
+    outline: none;
+}
+
 /* HEADER */
 
 header {
@@ -56,10 +62,11 @@ header button {
     margin-bottom: 40px;
 }
 
-#competences .h3-2 {
+#competences h3 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .progress {
@@ -207,4 +214,40 @@ header button {
 
 #experiences ul {
     margin-top: 20px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+#portfolio .projet {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .card {
+    box-shadow: 2px 2px 2px #333;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #343a40;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer p {
+    color: gainsboro;
+    text-align: center;
 }
