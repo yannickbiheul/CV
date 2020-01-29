@@ -56,6 +56,12 @@ header button {
     margin-bottom: 40px;
 }
 
+#competences .h3-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .progress {
     margin-bottom: 20px;
 }
@@ -68,6 +74,9 @@ header button {
 }
 .bootstrap {
     background-color: #8550d2 !important;
+}
+.materialize {
+    background-color: #ee6e72 !important;
 }
 .javascript {
     background-color: #f7e018 !important;
