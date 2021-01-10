@@ -48,10 +48,6 @@
         <a href="#" class="elt">Contact</a>
     </div>
 
-    <div class="returnTop">
-        <a href="#accueil"><i class="far fa-arrow-alt-circle-up"></i></a>
-    </div>
-
 
     <!-- SECTION ACCUEIL -->
 
@@ -205,6 +201,9 @@
     <!-- SECTION PORTFOLIO -->
 
     <section id="portfolio">
+        <div class="titrePortfolio">
+            <h3>Portfolio</h3>
+        </div>
         <div class="cartePortfolio projet1">
 
         </div>
