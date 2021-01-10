@@ -1,0 +1,113 @@
+@media screen and (max-width: 1200px) {
+    .titreAccueil {
+        width: 75%;
+    }
+
+    .textePresentation {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .boutonBurger {
+        display: flex;
+    }
+
+    #accueil {
+        height: 100vh;
+    }
+
+    .titreAccueil {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #accueil>img {
+       display: none;
+    }
+
+    #presentation {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    #experiences {
+        flex-direction: column;
+    }
+
+    .formation {
+        width: 100%;
+    }
+
+    .formation>h3 {
+        margin-top: 40px;
+    }
+
+    .expPro {
+        width: 100%;
+    }
+
+    #portfolio {
+        flex-direction: column;
+    }
+
+    .cartePortfolio {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .carteCompetence {
+        width: 280px;
+        height: 380px;
+
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .compCube {
+        width: 280px;
+        height: 280px;
+        /* border: 1px solid #fff; */
+    }
+
+    .containerCube {
+        width: 140px;
+        height: 140px;
+    }
+
+    .face {
+        width: 140px;
+        height: 140px;
+    }
+
+    .top {
+        transform: rotateX(90deg) translateZ(70px);
+    }
+
+    .bottom {
+        transform: rotateX(-90deg) translateZ(70px);
+    }
+
+    .right {
+        transform: rotateY(90deg) translateZ(70px);
+    }
+
+    .left {
+        transform: rotateY(-90deg) translateZ(70px);
+    }
+
+    .front {
+        transform: rotateX(0deg) translateZ(70px);
+    }
+
+    .back {
+        transform: rotateX(-180deg) translateZ(70px);
+    }
+}
+

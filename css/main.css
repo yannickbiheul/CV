@@ -1,0 +1,79 @@
+@import "menuBurger.css";
+@import "sections.css";
+@import "mediaQueries.css";
+
+:root {
+    --blue: #3498db;
+    --blue2: #2980b9;
+    --green: #2ecc71;
+    --green2: #27ae60;
+    --red: #e74c3c;
+    --red2: #c0392b;
+    --orange: #f39c12;
+    --quicksand: 'Quicksand', sans-serif;
+    --bangers: 'bangers', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: transparent;
+}
+
+nav {
+    /* border: 1px solid #fff; */
+    margin-right: 20px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+.returnTop {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue);
+}
+
+.returnTop>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+
